@@ -5,22 +5,23 @@ Levitate is a modern e-commerce website showcasing a sleek design and user-frien
 https://mjnsampath07.github.io/Levitate-A-Modern-E-Commerce-Platform/
 
 
-                                                              HOME PAGE 
+                                                         HOME PAGE 
 ![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/Home%20page.jpeg?raw=true)
 
 
 
 
-                                                            Collections PAGE
+                                                     COLLECTIONS PAGE
 
 ![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/Collections%20page.jpeg?raw=true)
 
 
 
-                                                              Sales PAGE
+                                                        SALES PAGE
 ![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/Sales%20page.jpeg?raw=true)
 
 
 
 
-                                                               About PAGE
+                                                       ABOUT PAGE
+![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/About%20page.jpeg?raw=true)
