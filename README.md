@@ -13,4 +13,8 @@ https://mjnsampath07.github.io/Levitate-A-Modern-E-Commerce-Platform/
 
                                                             Collections PAGE
 
-![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/Home%20page.jpeg?raw=true)
+![image alt](https://github.com/MJNSampath07/Levitate-A-Modern-E-Commerce-Platform/blob/main/levitate%20-%20Images/Collections%20page.jpeg?raw=true)
+
+
+
+                                                              Sales PAGE
