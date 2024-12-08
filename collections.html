@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our premium fashion collections at Levitate">
+    <title>Collections - Levitate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Levitate</a>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="collections.html" class="active">Collections</a>
+            <a href="sales.html">Sale</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart" aria-label="Shopping Cart"></i>
+            <span class="cart-count" aria-label="Items in cart">0</span>
+        </div>
+    </nav>
+
+    <main class="products-container">
+        <aside class="filters">
+            <h3>Filter Collection</h3>
+            <div class="filter-section">
+                <h4>Categories</h4>
+                <form id="category-filters">
+                    <label><input type="checkbox" name="category" value="all" checked> All</label>
+                    <label><input type="checkbox" name="category" value="tops" checked> Tops</label>
+                    <label><input type="checkbox" name="category" value="bottoms" checked> Bottoms</label>
+                    <label><input type="checkbox" name="category" value="outerwear" checked> Outerwear</label>
+                    <label><input type="checkbox" name="category" value="accessories" checked> Accessories</label>
+                </form>
+            </div>
+            <div class="filter-section">
+                <h4>Price Range</h4>
+                <input type="range" min="0" max="10000" value="10000" class="price-range" id="price-filter">
+                <div class="price-labels">
+                    <span>₹0</span>
+                    <span>₹10,000</span>
+                </div>
+            </div>
+        </aside>
+
+        <section class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="tshirt.jpg" alt="Premium T-Shirt" loading="lazy">
+                    <div class="product-badge">New Arrival</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Cotton T-Shirt</h3>
+                    <p>Ultra-soft premium cotton blend</p>
+                    <span class="price">₹1,499</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Denimjeans.jpg" alt="Designer Jeans" loading="lazy">
+                    <div class="product-badge">Best Seller</div>
+                </div>
+                <div class="product-info">
+                    <h3>Designer Denim Jeans</h3>
+                    <p>Perfect fit stretch denim</p>
+                    <span class="price">₹3,999</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="leatherjacket.jpg" alt="Leather Jacket" loading="lazy">
+                    <div class="product-badge">Premium</div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Leather Jacket</h3>
+                    <p>Genuine leather craftsmanship</p>
+                    <span class="price">₹7,999</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="polotshirt.jpg" alt="Polo T-Shirt" loading="lazy">
+                    <div class="product-badge">Trending</div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Polo T-Shirt</h3>
+                    <p>Breathable pique cotton fabric</p>
+                    <span class="price">₹1,799</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/henley-tshirt.jpg" alt="Henley T-Shirt" loading="lazy">
+                    <div class="product-badge">New</div>
+                </div>
+                <div class="product-info">
+                    <h3>Henley Neck T-Shirt</h3>
+                    <p>Soft cotton blend casual wear</p>
+                    <span class="price">₹1,299</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/cotton-chinos.jpg" alt="Cotton Chinos" loading="lazy">
+                    <div class="product-badge">Bestseller</div>
+                </div>
+                <div class="product-info">
+                    <h3>Casual Cotton Chinos</h3>
+                    <p>Comfortable stretch cotton pants</p>
+                    <span class="price">₹2,499</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/linen-trousers.jpg" alt="Linen Trousers" loading="lazy">
+                    <div class="product-badge">Premium</div>
+                </div>
+                <div class="product-info">
+                    <h3>Cotton Linen Trousers</h3>
+                    <p>Lightweight summer comfort</p>
+                    <span class="price">₹2,999</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Levitate</h4>
+                <p>Your premium fashion destination</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:style@levitate.com">style@levitate.com</a></p>
+                <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script>
+        document.body.classList.add('loading');
+        window.addEventListener('load', () => {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    document.body.classList.remove('loading');
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>

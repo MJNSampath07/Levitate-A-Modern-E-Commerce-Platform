@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Levitate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Levitate</a>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="sales.html">Sale</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <main class="payment-container">
+        <h1>Payment Information</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-name">Cardholder Name</label>
+                <input type="text" id="card-name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry-date">Expiry Date (MM/YY)</label>
+                <input type="text" id="expiry-date" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" required>
+            </div>
+            <button type="submit" class="pay-button">Pay Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Levitate</h4>
+                <p>Your premium fashion destination</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: style@levitate.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/payment.js"></script>
+</body>
+</html> 

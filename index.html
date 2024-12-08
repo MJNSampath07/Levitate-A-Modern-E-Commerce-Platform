@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levitate - Premium Fashion Brand</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="logo">Levitate</div>
+    </div>
+
+    <nav>
+        <a href="index.html" class="logo">Levitate</a>
+        <div class="nav-items">
+            <a href="index.html" class="active">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="sales.html">Sale</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <h1>Elevate Your Style</h1>
+            <p>Discover the latest in fashion innovation</p>
+            <a href="collections.html" class="cta-button">Shop Collection</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured">
+            <h2>Featured Collection</h2>
+            <div class="product-grid">
+                <template id="product-template">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img loading="lazy" alt="">
+                        </div>
+                        <div class="product-info">
+                            <h3></h3>
+                            <p></p>
+                            <span class="price"></span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Levitate</h4>
+                <p>Your premium fashion destination</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: style@levitate.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const products = [
+            {
+                image: "hoddie.jpg",
+                name: "Urban Comfort Hoodie",
+                description: "Premium cotton blend streetwear",
+                price: "₹2,999",
+                alt: "Premium Hoodie"
+            },
+            {
+                image: "denimjeans.jpg", 
+                name: "Classic Denim Jeans",
+                description: "Timeless style, perfect fit",
+                price: "₹3,499",
+                alt: "Designer Jeans"
+            },
+            {
+                image: "images/jacket.jpg",
+                name: "Vintage Leather Jacket", 
+                description: "Premium leather craftsmanship",
+                price: "₹4,999",
+                alt: "Leather Jacket"
+            }
+        ];
+
+        const template = document.getElementById('product-template');
+        const grid = document.querySelector('.product-grid');
+
+        products.forEach(({ image, name, description, price, alt }) => {
+            const clone = template.content.cloneNode(true);
+            const img = clone.querySelector('img');
+            img.src = image;
+            img.alt = alt;
+            clone.querySelector('h3').textContent = name;
+            clone.querySelector('p').textContent = description;
+            clone.querySelector('.price').textContent = price;
+            grid.appendChild(clone);
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

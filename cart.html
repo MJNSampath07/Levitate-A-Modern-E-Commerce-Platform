@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - TechVibe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Levitate</a>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="sales.html">Sale</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <main class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        
+        <div class="cart-content">
+            <div class="cart-items">
+                <!-- Cart items will be dynamically populated -->
+            </div>
+
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item">
+                    <span>Subtotal</span>
+                    <span class="subtotal">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping</span>
+                    <span class="shipping">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Tax</span>
+                    <span class="tax">$0.00</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span class="total">$0.00</span>
+                </div>
+                <button class="checkout-btn" onclick="window.location.href='payment.html'">Proceed to Checkout</button>
+            </div>
+        </div>
+
+        <div class="empty-cart-message">
+            <i class="fas fa-shopping-cart"></i>
+            <p>Your cart is empty</p>
+            <a href="products.html" class="continue-shopping">Continue Shopping</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About TechVibe</h4>
+                <p>Your premium electronics destination</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@techvibe.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html> 
